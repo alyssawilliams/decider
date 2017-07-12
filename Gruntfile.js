@@ -19,7 +19,8 @@ module.exports = function(grunt) {
 				options: {
 					data: {
 						debug: false
-					}
+					},
+					pretty: true,
 				},
 				files: {
 					'index.html': ['index.pug']
